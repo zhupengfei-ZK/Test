@@ -1,0 +1,114 @@
+{
+  "home": {
+    "banner": "/static/images/home/newcomer-2.jpg",
+    "listDate":[
+      {"icon": "service", "text": "在线QQ客服", "isBorder": false,"rightIcon": false},
+      {"icon": "phone", "text": "客服热线", "isBorder": false,"rightIcon": false},
+      {"icon": "favorite", "text": "切换电脑版", "isBorder": false,"rightIcon": false},
+      {"icon": "help", "text": "帮助中心", "isBorder": false,"rightIcon": false},
+      {"icon": "", "text": "关闭", "isBorder": false,"rightIcon": false}
+    ],
+    "message": [
+        {"imgUrl": "", "title": "喜利多", "content": "长期限 理财省心收益多"},
+        {"imgUrl": "xileduo", "title": "喜乐多", "content": "自由的短期理财"},
+        {"imgUrl": "dayinvest", "title": "余额天利", "content": "灵活理财随存随取"},
+        {"imgUrl": "other", "title": "推荐散标", "content": "灵活期限 更多选择"}
+     ],
+    "newdata": {
+      "type": "new",
+      "title": "新手专享【20170519-0002】"
+    },
+    "newStatic": {
+      "type": "new",
+      "title": "仅限新用户参加",
+      "apr": "预期年收益率(%)",
+      "aprVulue": "13",
+      "aprAdd": "0.8",
+      "timeLimitVulue": "1",
+      "timeLimit": "投资期限(月)"
+    },
+    "claim": {
+      "type": "claim"
+    },
+    "claimStatic": {
+      "type": "claim",
+      "titleValue": "债权投资",
+      "title": "更灵活的、更高的预期收益率",
+      "aprVulue": "预期年收益率(%)",
+      "apr": "9~13",
+      "timeLimitVulue": "1~24",
+      "timeLimit": "投资期限(月)"
+    },
+    "newGetList": [
+      {
+        "type": "newGetList",
+        "title": "汽车抵押借款【JKC20170519-0022】",
+        "apr": "13",
+        "timeLimit": "1",
+        "account": "13",
+        "other": "50000"
+      },{
+        "type": "newGetList",
+        "title": "汽车抵押借款【JKC20170519-0023】",
+        "apr": "13",
+        "timeLimit": "1",
+        "account": "13",
+        "other": "50000"
+      },{
+        "type": "newGetList",
+        "title": "汽车抵押借款【JKC20170519-0024】",
+        "apr": "13",
+        "timeLimit": "1",
+        "account": "13",
+        "other": "50000"
+      },{
+        "type": "newGetList",
+        "title": "汽车抵押借款【JKC20170519-0025】",
+        "apr": "13",
+        "timeLimit": "1",
+        "account": "13",
+        "other": "50000"
+      },{
+        "type": "newGetList",
+        "title": "汽车抵押借款【JKC20170519-0026】",
+        "apr": "13",
+        "timeLimit": "1",
+        "account": "13",
+        "other": "50000"
+      }
+    ],
+    "newGetListStatic": {
+      "type": "newGetList",
+      "apr": "预期年收益率(%)",
+      "timeLimit": "投资期限(月)",
+      "other": "可加入金额(万)",
+      "account": "融资金额(万)"
+    }
+  },
+  "find": {
+    "swiperImg":[
+      "/static/images/find/swiper-1.jpg",
+      "/static/images/find/swiper-2.jpg",
+      "/static/images/find/swiper-3.jpg"
+    ],
+    "mesImg":[
+      "/static/images/find/find-midea-2.png"
+    ],
+    "listDate":[
+      {"icon": "favorite", "text": "了解喜投网", "isBorder": "true","rightIcon": true},
+      {"icon": "Category", "text": "黄生专栏", "isBorder": "true","rightIcon": true},
+      {"icon": "service", "text": "在线QQ客服", "isBorder": "true","rightIcon": true},
+      {"icon": "phone", "text": "客服热线", "isBorder": "true","rightIcon": true},
+      {"icon": "help", "text": "帮助中心", "isBorder": "false","rightIcon": true}
+    ]
+  },
+  "bbs": {
+    "listDate":[
+      {"botton": "置顶", "text": "了解喜投网", "isBorder": "true","rightIcon": false},
+      {"botton": "置顶", "text": "黄生专栏", "isBorder": "true","rightIcon": false},
+      {"botton": "置顶", "text": "在线QQ客服", "isBorder": "true","rightIcon": false},
+      {"botton": "置顶", "text": "客服热线", "isBorder": "true","rightIcon": false},
+      {"botton": "置顶", "text": "帮助中心", "isBorder": "false","rightIcon": false}
+    ]
+  }
+}
