@@ -55,7 +55,4 @@
   .auto{
       background-position: 0 -12.8rem;
   }
-  .user-gray {
-    @include sc(0.55rem, #808080);
-  }
 </style>

@@ -1,49 +1,96 @@
 <template lang="html">
-    <a href="#" data-no-cache="true" class="index-invest-item">
-      <div class="index-invest-icon" :class='message.imgUrl'></div>
-      <div class="index-invest-text">
-        <div>{{message.title}}</div>
-        <div class="user-gray">{{message.content}}</div>
+  <route>
+    <head-top :head-title="headTitle" goBack="true"></head-top>
+    <div class="content">
+      <div class="block pb10">
+        <el-button type="primary" class="botton">长期理财收益更高，工作日发布</el-button>
+        <div class="invest-xiliduo-box">
+          <div class="user-gray mt-15">预期年化收益率(%)</div>
+          <div class="red rem-30">11.00<span class="rem-15">+2.0%</span></div>
+        </div>
+        <el-row class="tc">
+          <el-col :span="12" class="user-gray rem-7">起投金额<span class="red"> 1,000元</span></el-col>
+          <el-col :span="12" class="user-gray rem-7">项目期限<span class="red"> 24个月</span></el-col>
+        </el-row>
       </div>
-    </a>
+      <div class="block pb10 tc">
+        <el-row>
+          <el-col :span="8" class="pb10">
+            <div class="invest-xiliduo-icon safe">
+              <i class="el-icon-edit"></i>
+            </div>
+            <p class="mt25">安全稳健</p>
+          </el-col>
+          <el-col :span="8">
+            <div class="invest-xiliduo-icon more">
+              <i class="el-icon-edit"></i>
+            </div>
+            <p class="mt25">更高收益</p>
+          </el-col>
+          <el-col :span="8">
+            <div class="invest-xiliduo-icon all">
+              <i class="el-icon-edit"></i>
+            </div>
+            <p class="mt25">全民理财</p>
+          </el-col>
+        </el-row>
+        <p class="rem-8 mu5">项目金额 <span class="red">500,000 元</span></p>
+        <el-button type="danger" class="wh100 mu5">正在还款中</el-button>
+        <router-link to="#"class="red rem-6">
+          喜利多理财计划服务协议书（范本）
+        </router-link>
+      </div>
+    </div>
+  </route>
 </template>
 <script>
+  import route from '../route'
+  import headTop from '../../header/head.vue'
   export default {
-    props: ['message']
+    data () {
+      return {
+        headTitle: '喜利多【20170612-0001】'
+      }
+    },
+    props: ['message'],
+    components: {
+      headTop,
+      route
+    }
   }
 </script>
 <style lang="scss" scoped>
   @import 'src/style/mixin';
-  .index-invest-item{
-    width: 50%;
-    float: left;
-    padding: 0.5rem 0.1rem;
-    color: #141414;
+  .content{
+    margin-top: 2.45rem;
   }
-  .index-invest-icon {
-    width: 2.2rem;
-    height: 2.2rem;
-    float: left;
-    background-image: url(/static/images/home/index-invest-2.png);
-    background-size: 2.2rem auto;
-    background-repeat: no-repeat;
-    margin: .20rem 0 0 .2rem;
+  .botton{
+    @include borderRadius(1rem);
+    @include background(#F37776);
   }
-  .index-invest-text {
-    margin-top: .4rem;
-    height: 2.2rem;
-    margin-left: 2.8rem;
+  .invest-xiliduo-box {
+    width: 12rem;
+    margin: .75rem auto;
+  .user-gray{
+      font-size: 0.85rem;
+    }
   }
-  .index-invest-icon.xileduo {
-    background-position: 0 -2.7rem;
+  .invest-xiliduo-icon {
+    height: 2.6rem;
+    width: 2.6rem;
+    border-radius: 50%;
+    line-height: 2.5rem;
+    margin: 0 auto;
+    border: 1px solid #000;
+    font-size: 1.2rem;
   }
-  .index-invest-icon.dayinvest {
-    background-position: 0 -5.2rem;
+  .safe {
+    @include borderColor(#fd544d);
   }
-  .index-invest-icon.other {
-    background-position: 0 -8.0rem;
+  .more {
+    @include borderColor(#83c944);
   }
-  .user-gray {
-    @include sc(0.55rem, #808080);
+  .all {
+    @include borderColor(#40a1e0);
   }
 </style>

@@ -6,6 +6,9 @@ const home = r => require.ensure([], () => r(require('../page/home/home')), 'hom
 const bbs = r => require.ensure([], () => r(require('../page/bbs/bbs')), 'bbs')
 const user = r => require.ensure([], () => r(require('../page/user/user')), 'user')
 const find = r => require.ensure([], () => r(require('../page/find/find')), 'find')
+const xiliduo = r => require.ensure([], () => r(require('../components/common/home/xiliduo')), 'xiliduo')
+const xileduo = r => require.ensure([], () => r(require('../components/common/home/xileduo')), 'xileduo')
+const tianli = r => require.ensure([], () => r(require('../components/common/home/tianli')), 'tianli')
 
 Vue.use(Router)
 
@@ -16,18 +19,30 @@ export default new Router({
       component: App,
       children: [
         {
-          path: '/',
-          component: home
-        },
-        {
+          path: '',
+          redirect: '/home'
+        }, {
+          path: '/home',
+          component: home,
+          children: [
+            {
+              path: '/xileduo',
+              component: xileduo
+            }, {
+              path: '/xiliduo',
+              component: xiliduo
+            }, {
+              path: '/tianli',
+              component: tianli
+            }
+          ]
+        }, {
           path: '/bbs',
           component: bbs
-        },
-        {
+        }, {
           path: '/user',
           component: user
-        },
-        {
+        }, {
           path: '/find',
           component: find
         }

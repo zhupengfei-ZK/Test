@@ -1,38 +1,42 @@
 <template>
     <section id='foot_guide'>
-        <section @click = "gotoAddress('/')" class="guide_item">
-          <span class=""><icon name="home" scale="2" style="color: #929292"></icon></span>
-          <span>首页</span>
-        </section>
-        <section @click = "gotoAddress('/find')" class="guide_item">
-          <span class=""><icon name="light" scale="2.3" style="color: #929292;margin:-0.1rem auto -0.04rem auto"></icon></span>
-          <span>发现</span>
-        </section>
-        <section @click = "gotoAddress('/user')" class="guide_item">
-          <span class=""><icon name="account" scale="2" style="color: #929292" ></icon></span>
-          <span>账户</span>
-        </section>
-        <section @click = "gotoAddress('/bbs')" class="guide_item">
-          <span class=""><icon name="community" scale="2" style="color: #929292"></icon></span>
-          <span>社区</span>
-        </section>
+        <slot name="text"></slot>
+        <router-link v-if="!item" :to="li.url"  class="guide_item" v-for="li of list" :key="li.id">
+            <icon :name="li.name" scale="2" style="color: #929292"></icon>
+            <span>{{li.text}}</span>
+        </router-link>
     </section>
 </template>
 
 <script>
   export default {
+    props: ['item'],
     data () {
       return {
+        'list': [
+          {
+            'url': '/',
+            'name': 'home',
+            'text': '首页'
+          }, {
+            'url': '/find',
+            'name': 'light',
+            'text': '发现'
+          }, {
+            'url': '/user',
+            'name': 'account',
+            'text': '账户'
+          }, {
+            'url': '/bbs',
+            'name': 'community',
+            'text': '社区'
+          }
+        ]
       }
     },
     created () {
     },
     mounted () {
-    },
-    methods: {
-      gotoAddress (path) {
-        this.$router.push(path)
-      }
     }
   }
 </script>
@@ -56,10 +60,15 @@
     	text-align: center;
     	flex-direction: column;
     	align-items: center;
-      margin-top:0.4rem;
+        margin-top:0.4rem;
 		span{
 			@include sc(.55rem, #929292);
 		}
+    }
+    p{
+        line-height: 2.5rem;
+        @include sc(.8rem, #FF4B4A);
+        margin: auto;
     }
 
 </style>

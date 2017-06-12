@@ -5,7 +5,7 @@
          <tabTwo></tabTwo>
          <tabButton :tabData="tabData" style="margin-top: 2.5rem"></tabButton>
          <listIcon :data="bbs.listDate"></listIcon>
-         <foot-guide></foot-guide>
+         <foot-guide ></foot-guide>
      </div>
      <!--</transition>-->
 </template>

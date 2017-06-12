@@ -9,10 +9,10 @@
       {"icon": "", "text": "关闭", "isBorder": false,"rightIcon": false}
     ],
     "message": [
-        {"imgUrl": "", "title": "喜利多", "content": "长期限 理财省心收益多"},
-        {"imgUrl": "xileduo", "title": "喜乐多", "content": "自由的短期理财"},
-        {"imgUrl": "dayinvest", "title": "余额天利", "content": "灵活理财随存随取"},
-        {"imgUrl": "other", "title": "推荐散标", "content": "灵活期限 更多选择"}
+        {"imgUrl": "", "title": "喜利多", "content": "长期限 理财省心收益多", "url": "/xiliduo"},
+        {"imgUrl": "xileduo", "title": "喜乐多", "content": "自由的短期理财", "url": "/xileduo"},
+        {"imgUrl": "dayinvest", "title": "余额天利", "content": "灵活理财随存随取", "url": "/tianli"},
+        {"imgUrl": "other", "title": "推荐散标", "content": "灵活期限 更多选择", "url": "/xileduo"}
      ],
     "newdata": {
       "type": "new",

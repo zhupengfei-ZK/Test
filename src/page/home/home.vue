@@ -9,12 +9,12 @@
         <listIcon class="whiteFont" :data="home.listDate"></listIcon>
       </div>
     </div>
-    <foot-guide signin-up='home' class="transition" :class="{ moveenter: show }"></foot-guide>
+    <foot-guide class="t-line"></foot-guide>
     <transition name="move">
       <div id="home-admin" class="transition" :class="{ moveenter: show }">
         <span class="sitting"  @click="show = !show"><icon name="sitting" scale="2" style="color: #fff"></icon></span>
         <img :src="home.banner" alt="" width="100%">
-        <div class="clear">
+        <div class="clearfix">
           <div class="home-list-icon-bline"></div>
           <home-list-icon v-for="item of home.message" :message='item':key="item.id" style="background:#fff"></home-list-icon>
         </div>
@@ -23,6 +23,9 @@
         <home-list-out v-for="item of home.newGetList" :newGetList='item' :key="item.id" style="background:#fff" message="newGetList"class="mt-10"></home-list-out>
       </div>
     </transition>
+    <div>
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 <script>

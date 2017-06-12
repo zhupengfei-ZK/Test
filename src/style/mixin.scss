@@ -16,56 +16,72 @@ $fc:#fff;
     -o-border-radius: $radius;
     border-radius: $radius;
 }
+@mixin background($color) {
+    -webkit-border: none;
+    -moz-border: none;
+    -ms-border: none;
+    -o-border: none;
+    border: none;
+	background: $color;
+}
+@mixin borderColor($color) {
+    -webkit-border-color: $color;
+    -moz-border-color: $color;
+    -ms-border-color: $color;
+    -o-border-color: $color;
+    border-color: $color;
+	color: $color;
+}
 //定位全屏
 @mixin allcover{
-	  position:absolute;
-	  top:0;
-	  right:0;
+	position:absolute;
+	top:0;
+	right:0;
 }
 
 //定位上下左右居中
 @mixin center {
-	  position: absolute;
-	  top: 50%;
+	position: absolute;
+	top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 //定位上下居中
 @mixin ct {
-	  position: absolute;
-	  top: 50%;
+	position: absolute;
+	top: 50%;
     transform: translateY(-50%);
 }
 
 //定位上下居中
 @mixin cl {
-	  position: absolute;
-	  left: 50%;
+	position: absolute;
+	left: 50%;
     transform: translateX(-50%);
 }
 
 //宽高
 @mixin wh($width, $height){
-	  width: $width;
-	  height: $height;
+	width: $width;
+	height: $height;
 }
 
 //字体大小、行高、字体
 @mixin font($size, $line-height, $family: 'Microsoft YaHei') {
-	  font: #{$size}/#{$line-height} $family;
+	font: #{$size}/#{$line-height} $family;
 }
 
 //字体大小，颜色
 @mixin sc($size, $color){
-	  font-size: $size;
-	  color: $color;
+	font-size: $size;
+	color: $color;
 }
 
 //flex 布局和 子元素 对其方式
 @mixin fj($type: space-between){
-	  display: flex;
-	  justify-content: $type;
+	display: flex;
+	justify-content: $type;
 
 }
 .b-line:after {
@@ -76,16 +92,108 @@ $fc:#fff;
 	left: 0px;
 	height: 1px;
 	-webkit-transform: scale(1,0.5);
-	background: #eaeaea;
+	background: #e7e7e7;
 }
 .b-line {
 	position: relative;
 }
-.clearfix:before,
-.clearfix:after {
-	content: " ";
-	display: table;
+.t-line:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: auto;
+	right: auto;
+	height: 1px;
+	width: 100%;
+	background-color: #e7e7e7;
+	display: block;
+	z-index: 15;
+	-webkit-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
 }
-.clearfix:after {
+
+.clearfix:after{
+	content: '';
+	display: block;
 	clear: both;
+	visibility:hidden;
+	height:0;
+}
+.clearfix{
+	zoom:1;
+}
+.white{
+	background: #fff;
+}
+.block {
+	margin-top: 0.5rem;
+	padding: 1rem;
+	background: #fff;
+	position: relative;
+	display: block;
+}
+.user-gray {
+	@include sc(0.55rem, #808080);
+}
+.rem-30 {
+	font-size: 3rem;
+}
+.rem-15 {
+	font-size: 1.5rem;
+}
+.rem-10 {
+	font-size: 1rem;
+}
+.rem-8 {
+	font-size: 0.8rem;
+}
+.rem-7 {
+	font-size: 0.7rem;
+}
+.rem-6 {
+	font-size: .6rem;
+}
+.p10{
+	padding: 1rem;
+}
+.pb10{
+	padding-bottom: 1rem;
+}
+.p5{
+	padding: .5rem 0;
+}
+.pl5{
+	padding-left: .5rem;
+}
+.mt25 {
+	margin-top: .25rem;
+}
+.mu5 {
+	margin:0.5rem auto;
+}
+.red {
+	color: #FF4B4A;
+}
+.tc{
+	text-align: center;
+}
+.wh100{
+	width: 100%;
+}
+.content{
+	margin-top: 1.95rem;
+}
+.b {
+	width: 4px;
+	height: 4px;
+	overflow: hidden;
+	line-height: none;
+	font-size: 0;
+	border-radius: 50%;
+	text-indent: -9999em;
+	background: #a1acb4;
+	display: inline-block;
+	margin-right: .4rem;
+	vertical-align: middle;
 }

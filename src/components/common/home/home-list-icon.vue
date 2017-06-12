@@ -1,15 +1,20 @@
 <template lang="html">
-    <a href="#" data-no-cache="true" class="index-invest-item">
+    <router-link :to="message.url" data-no-cache="true" class="index-invest-item">
       <div class="index-invest-icon" :class='message.imgUrl'></div>
       <div class="index-invest-text">
         <div>{{message.title}}</div>
         <div class="user-gray">{{message.content}}</div>
       </div>
-    </a>
+    </router-link>
 </template>
 <script>
   export default {
-    props: ['message']
+    props: ['message'],
+    methods: {
+      gotoAddress (path) {
+        this.$router.push(path)
+      }
+    }
   }
 </script>
 <style lang="scss" scoped>
@@ -42,8 +47,5 @@
   }
   .index-invest-icon.other {
     background-position: 0 -8.0rem;
-  }
-  .user-gray {
-    @include sc(0.55rem, #808080);
   }
 </style>

@@ -45,7 +45,7 @@
               <findListTitle :message="item"></findListTitle>
           </div>
         </div>
-      <foot-guide></foot-guide>
+      <foot-guide ></foot-guide>
     </div>
 </template>
 

@@ -1,6 +1,6 @@
  <template>
     <div>
-      <div class="block">
+      <div class="block" style="margin-top: 0">
         <a href="#">
           <icon name="message" scale="1.6" style="vertical-align: text-bottom"></icon>&nbsp&nbsp最新项目预告: 不断更新中
         </a>
@@ -62,11 +62,6 @@ export default {
   @import 'src/style/mixin';
   @import 'src/style/font';
 
-  .block {
-  padding: 0.5rem;
-  background: #fff;
-  display: block;
-}
 .swiper-slide {
   width: initial;
 }

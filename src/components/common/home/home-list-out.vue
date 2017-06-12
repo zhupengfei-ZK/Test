@@ -11,7 +11,7 @@
           <span class="num Montserrat">{{apr}}<span v-if="aprAdd">+{{aprAdd}}</span></span>
           <p class="user-gray">{{strApr}}</p>
         </div>
-        <div class="invest-item-limit">
+        <div>
           <span class="Montserrat">{{timelimit}}</span>
           <p class="user-gray">{{strTimeLimit}}</p>
         </div>
@@ -85,7 +85,6 @@
     computed: {
       classObject: function () {
         return {
-          'p5': this.isActive,
           'b-line': this.isActive,
           'invest-item': true
         }
@@ -119,9 +118,6 @@
   }
   .p5{
     padding: .5rem!important;
-  }
-  .user-gray {
-    @include sc(0.55rem, #808080);
   }
   .b-line:after {
     content: "";
