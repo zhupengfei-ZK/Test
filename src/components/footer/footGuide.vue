@@ -1,6 +1,7 @@
 <template>
     <section id='foot_guide'>
         <slot name="text"></slot>
+        <slot name="button"></slot>
         <router-link v-if="!item" :to="li.url"  class="guide_item" v-for="li of list" :key="li.id">
             <icon :name="li.name" scale="2" style="color: #929292"></icon>
             <span>{{li.text}}</span>
@@ -60,10 +61,10 @@
     	text-align: center;
     	flex-direction: column;
     	align-items: center;
-        margin-top:0.4rem;
-		span{
-			@include sc(.55rem, #929292);
-		}
+      margin-top:0.4rem;
+      span{
+        @include sc(.55rem, #929292);
+      }
     }
     p{
         line-height: 2.5rem;

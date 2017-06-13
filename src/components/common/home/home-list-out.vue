@@ -1,5 +1,5 @@
 <template lang="html">
-    <a href="#" data-no-cache="true" :class="classObject">
+  <router-link to="/product" data-no-cache="true" :class="classObject">
       <div class="invest-item-title">
         <span class="transfer-icon"></span>
         {{title}}
@@ -20,7 +20,7 @@
           <p class="user-gray">{{strOther}}</p>
         </div>
       </div>
-    </a>
+  </router-link>
 </template>
 <script>
   import axios from 'axios'

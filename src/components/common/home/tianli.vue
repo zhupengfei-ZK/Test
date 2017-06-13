@@ -18,7 +18,7 @@
           </el-row>
         </div>
       </div>
-      <div class="block pl5 p5">
+      <div class="block pl5 pu5">
         <div class="rem-8">七日平均预期年化收益：<span class="red rem-10">4.65</span></div>
       </div>
       <foot-guide :item="true" class="t-line">

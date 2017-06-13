@@ -139,11 +139,23 @@ $fc:#fff;
 .rem-30 {
 	font-size: 3rem;
 }
+.rem-18 {
+	font-size: 1.8rem;
+}
 .rem-15 {
 	font-size: 1.5rem;
 }
+.rem-13 {
+	font-size: 1.3rem;
+}
 .rem-10 {
 	font-size: 1rem;
+}
+.rem-9 {
+	font-size: 0.9rem;
+}
+.rem-85 {
+	font-size: 0.85rem;
 }
 .rem-8 {
 	font-size: 0.8rem;
@@ -154,17 +166,39 @@ $fc:#fff;
 .rem-6 {
 	font-size: .6rem;
 }
+.lh15 {
+  height: 1.5rem;
+  line-height: 1.5rem;
+}
+.fw5{
+  font-weight: 500;
+}
 .p10{
 	padding: 1rem;
+}
+.p5{
+  padding: .5rem;
 }
 .pb10{
 	padding-bottom: 1rem;
 }
-.p5{
+.pc5{
+	padding: 0 0.5rem;
+}
+.pc75{
+	padding: 0 0.75rem;
+}
+.pc150{
+	padding: 0 1.5rem;
+}
+.pu5{
 	padding: .5rem 0;
 }
 .pl5{
 	padding-left: .5rem;
+}
+.mt5 {
+	margin-top: .5rem;
 }
 .mt25 {
 	margin-top: .25rem;
@@ -172,14 +206,29 @@ $fc:#fff;
 .mu5 {
 	margin:0.5rem auto;
 }
+.m25 {
+	margin:0.25rem;
+}
 .red {
 	color: #FF4B4A;
 }
 .tc{
 	text-align: center;
 }
+.tl{
+	text-align: left;
+}
+.tr{
+	text-align: right;
+}
+.fr{
+	float: right;
+}
 .wh100{
 	width: 100%;
+}
+.wh70{
+	width: 70%;
 }
 .content{
 	margin-top: 1.95rem;

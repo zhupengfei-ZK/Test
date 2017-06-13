@@ -1,52 +1,48 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import App from '../App'
-// import footGuide from '@/components/footer/footGuide'
-const home = r => require.ensure([], () => r(require('../page/home/home')), 'home')
-const bbs = r => require.ensure([], () => r(require('../page/bbs/bbs')), 'bbs')
-const user = r => require.ensure([], () => r(require('../page/user/user')), 'user')
-const find = r => require.ensure([], () => r(require('../page/find/find')), 'find')
-const xiliduo = r => require.ensure([], () => r(require('../components/common/home/xiliduo')), 'xiliduo')
-const xileduo = r => require.ensure([], () => r(require('../components/common/home/xileduo')), 'xileduo')
-const tianli = r => require.ensure([], () => r(require('../components/common/home/tianli')), 'tianli')
+import home from '@/page/home/home'
+import bbs from '@/page/bbs/bbs'
+import user from '@/page/user/user'
+import find from '@/page/find/find'
+import xiliduo from '@/components/common/home/xiliduo'
+import xileduo from '@/components/common/home/xileduo'
+import tianli from '@/components/common/home/tianli'
+import product from '@/components/common/home/productInfo'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
-      component: App,
+      path: '',
+      redirect: '/home'
+    }, {
+      path: '/home',
+      component: home,
       children: [
         {
-          path: '',
-          redirect: '/home'
+          path: '/xileduo',
+          component: xileduo
         }, {
-          path: '/home',
-          component: home,
-          children: [
-            {
-              path: '/xileduo',
-              component: xileduo
-            }, {
-              path: '/xiliduo',
-              component: xiliduo
-            }, {
-              path: '/tianli',
-              component: tianli
-            }
-          ]
+          path: '/xiliduo',
+          component: xiliduo
         }, {
-          path: '/bbs',
-          component: bbs
+          path: '/tianli',
+          component: tianli
         }, {
-          path: '/user',
-          component: user
-        }, {
-          path: '/find',
-          component: find
+          path: '/product',
+          component: product
         }
       ]
+    }, {
+      path: '/bbs',
+      component: bbs
+    }, {
+      path: '/user',
+      component: user
+    }, {
+      path: '/find',
+      component: find
     }
   ]
 })

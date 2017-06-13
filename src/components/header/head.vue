@@ -1,6 +1,7 @@
 <template>
-    <header id='head_top'>
+    <header id='head_top' :style="{background: headback}">
         <span class="title_text" v-if="headTitle">{{headTitle}}</span>
+        <slot name="new"></slot>
         <section class="head_goback" v-if="goBack" @click="$router.go(-1)">
             <i class="el-icon-arrow-left"></i>
         </section>
@@ -14,13 +15,20 @@
 </template>
 <script>
   export default {
+    props: ['signinUp', 'headTitle', 'goBack', 'protype'],
     data () {
       return {
       }
     },
     mounted () {
     },
-    props: ['signinUp', 'headTitle', 'goBack']
+    computed: {
+      headback: function () {
+        if (this.protype === 'newtype') {
+          return '#f25b60'
+        }
+      }
+    }
   }
 
 </script>
@@ -35,6 +43,10 @@
         left: 0;
         top: 0;
         @include wh(100%, 1.95rem);
+        p{
+          @include sc(0.6rem, #fff);
+          @include cl;
+        }
     }
     .head_goback{
         width: 2rem;
