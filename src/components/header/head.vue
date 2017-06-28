@@ -3,7 +3,7 @@
         <span class="title_text" v-if="headTitle">{{headTitle}}</span>
         <slot name="new"></slot>
         <section class="head_goback" v-if="goBack" @click="$router.go(-1)">
-            <i class="el-icon-arrow-left"></i>
+            <i class="el-icon-pre"></i>
         </section>
         <router-link :to="userInfo? '/profile':'/login'" v-if='signinUp' class="head_login">
             <svg class="user_avatar" v-if="userInfo">
@@ -44,7 +44,7 @@
         top: 0;
         @include wh(100%, 1.95rem);
         p{
-          @include sc(0.6rem, #fff);
+          @include sc(0.5rem, #fff);
           @include cl;
         }
     }
@@ -52,13 +52,13 @@
         width: 2rem;
         line-height: 2rem;
         padding-left: 0.6rem;
-        .el-icon-arrow-left{
-            @include sc(0.8rem, #fff);
+        i{
+            @include sc(0.7rem, #fff);
         }
     }
     .head_login{
         right: 0.55rem;
-        @include sc(0.65rem, #fff);
+        @include sc(0.55rem, #fff);
         @include ct;
         .login_span{
             color: #fff;
@@ -69,7 +69,7 @@
         }
     }
     .title_text{
-        @include sc(0.8rem, #fff);
+        @include sc(0.7rem, #fff);
         @include cl;
         font-weight: 300;
         line-height: 1.95rem;

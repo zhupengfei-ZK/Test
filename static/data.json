@@ -1,26 +1,11 @@
 {
   "home": {
-    "banner": "/static/images/home/newcomer-2.jpg",
-    "listDate":[
-      {"icon": "service", "text": "在线QQ客服", "isBorder": false,"rightIcon": false},
-      {"icon": "phone", "text": "客服热线", "isBorder": false,"rightIcon": false},
-      {"icon": "favorite", "text": "切换电脑版", "isBorder": false,"rightIcon": false},
-      {"icon": "help", "text": "帮助中心", "isBorder": false,"rightIcon": false},
-      {"icon": "", "text": "关闭", "isBorder": false,"rightIcon": false}
-    ],
-    "message": [
-        {"imgUrl": "", "title": "喜利多", "content": "长期限 理财省心收益多", "url": "/xiliduo"},
-        {"imgUrl": "xileduo", "title": "喜乐多", "content": "自由的短期理财", "url": "/xileduo"},
-        {"imgUrl": "dayinvest", "title": "余额天利", "content": "灵活理财随存随取", "url": "/tianli"},
-        {"imgUrl": "other", "title": "推荐散标", "content": "灵活期限 更多选择", "url": "/xileduo"}
-     ],
     "newdata": {
       "type": "new",
       "title": "新手专享【20170519-0002】"
     },
     "newStatic": {
       "type": "new",
-      "title": "仅限新用户参加",
       "apr": "预期年收益率(%)",
       "aprVulue": "13",
       "aprAdd": "0.8",
@@ -33,7 +18,6 @@
     "claimStatic": {
       "type": "claim",
       "titleValue": "债权投资",
-      "title": "更灵活的、更高的预期收益率",
       "aprVulue": "预期年收益率(%)",
       "apr": "9~13",
       "timeLimitVulue": "1~24",
@@ -46,6 +30,7 @@
         "apr": "13",
         "timeLimit": "1",
         "account": "13",
+        "time": "01-25 11:00 开启手动",
         "other": "50000"
       },{
         "type": "newGetList",
@@ -53,6 +38,7 @@
         "apr": "13",
         "timeLimit": "1",
         "account": "13",
+        "time": "01-25 11:00 开启手动",
         "other": "50000"
       },{
         "type": "newGetList",
@@ -60,6 +46,7 @@
         "apr": "13",
         "timeLimit": "1",
         "account": "13",
+        "time": "01-25 11:00 开启手动",
         "other": "50000"
       },{
         "type": "newGetList",
@@ -67,6 +54,7 @@
         "apr": "13",
         "timeLimit": "1",
         "account": "13",
+        "time": "01-25 11:00 开启手动",
         "other": "50000"
       },{
         "type": "newGetList",
@@ -74,6 +62,7 @@
         "apr": "13",
         "timeLimit": "1",
         "account": "13",
+        "time": "01-25 11:00 开启手动",
         "other": "50000"
       }
     ],
@@ -87,19 +76,9 @@
   },
   "find": {
     "swiperImg":[
-      "/static/images/find/swiper-1.jpg",
-      "/static/images/find/swiper-2.jpg",
-      "/static/images/find/swiper-3.jpg"
-    ],
-    "mesImg":[
-      "/static/images/find/find-midea-2.png"
-    ],
-    "listDate":[
-      {"icon": "favorite", "text": "了解喜投网", "isBorder": "true","rightIcon": true},
-      {"icon": "Category", "text": "黄生专栏", "isBorder": "true","rightIcon": true},
-      {"icon": "service", "text": "在线QQ客服", "isBorder": "true","rightIcon": true},
-      {"icon": "phone", "text": "客服热线", "isBorder": "true","rightIcon": true},
-      {"icon": "help", "text": "帮助中心", "isBorder": "false","rightIcon": true}
+      "./static/images/find/swiper-1.jpg",
+      "./static/images/find/swiper-2.jpg",
+      "./static/images/find/swiper-3.jpg"
     ]
   },
   "bbs": {

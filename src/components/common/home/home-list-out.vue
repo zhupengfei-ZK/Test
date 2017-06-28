@@ -1,23 +1,25 @@
 <template lang="html">
-  <router-link to="/product" data-no-cache="true" :class="classObject">
-      <div class="invest-item-title">
-        <span class="transfer-icon"></span>
-        {{title}}
-        <span v-if="strTitle">{{strTitle}}</span>
-        <button v-if="message == 'newGetList'" class="invest-item-status"></button>
+  <router-link to="/product" data-no-cache="true" class="invest-item">
+      <div class="title">
+        <slot name="titleicon"></slot> {{title}} <slot name="titleGray"></slot>
+        <button v-if="message == 'newGetList'&&time" class="item-botton">{{time}}</button>
       </div>
-      <div class="flex-box">
-        <div>
-          <span class="num Montserrat">{{apr}}<span v-if="aprAdd">+{{aprAdd}}</span></span>
-          <p class="user-gray">{{strApr}}</p>
+        <div class="flex-box">
+          <div><div class="num Montserrat">{{apr}}<span v-if="aprAdd">+{{aprAdd}}</span></div></div>
+          <div class="Montserrat">{{timelimit}}</div>
+          <div class="Montserrat">{{other}}</div>
         </div>
-        <div>
-          <span class="Montserrat">{{timelimit}}</span>
-          <p class="user-gray">{{strTimeLimit}}</p>
-        </div>
-        <div v-if="message != 'claim'" class="invest-item-account">
-          <span class="Montserrat">{{other}}</span>
-          <p class="user-gray">{{strOther}}</p>
+        <div class="flex-box">
+          <div class="user-gray">{{strApr}}</div>
+          <div class="user-gray">{{strTimeLimit}}</div>
+          <div class="user-gray">{{strOther}}
+          <div v-if="message != 'claim'" class="invest-item-account">
+            <div v-if="message == 'newType'" class="invest-newcome-btn" >
+              立即加入
+            </div>
+            <div v-if="message == 'newType'" :style="newicon" class="invest-newcome-icon" ></div>
+          </div>
+          </p>
         </div>
       </div>
   </router-link>
@@ -31,7 +33,6 @@
         isActive: false,
         home: null,
         title: null,
-        strTitle: null,
         apr: true,
         aprAdd: null,
         strApr: null,
@@ -40,7 +41,12 @@
         other: null,
         strOther: null,
         account: null,
-        strAccount: null
+        time: null,
+        strAccount: null,
+        newicon: {
+          backgroundImage: 'url(' + require('../../../../static/images/home/index-newcome.png') + ')',
+          backgroundSize: '1.9rem'
+        }
       }
     },
     mounted () {
@@ -52,16 +58,13 @@
           this.home = res.data.home
           if (this.message === 'newType') {
             this.title = this.home.newdata.title
-            this.strTitle = this.home.newStatic.title
             this.apr = this.home.newStatic.aprVulue
             this.aprAdd = this.home.newStatic.aprAdd
             this.strApr = this.home.newStatic.apr
             this.timelimit = this.home.newStatic.timeLimitVulue
             this.strTimeLimit = this.home.newStatic.timeLimit
-            this.isActive = true
           } else if (this.message === 'claim') {
             this.title = this.home.claimStatic.titleValue
-            this.strTitle = this.home.claimStatic.title
             this.apr = this.home.claimStatic.apr
             this.strApr = this.home.claimStatic.aprVulue
             this.timelimit = this.home.claimStatic.timeLimitVulue
@@ -74,6 +77,7 @@
             this.strTimeLimit = this.home.newGetListStatic.timeLimit
             this.account = this.newGetList.account
             this.other = this.newGetList.other
+            this.time = this.newGetList.time
             this.strOther = this.home.newGetListStatic.other
             this.strAccount = this.home.newGetListStatic.account
           } else {
@@ -81,56 +85,73 @@
           }
         })
       }
-    },
-    computed: {
-      classObject: function () {
-        return {
-          'b-line': this.isActive,
-          'invest-item': true
-        }
-      }
     }
   }
 </script>
 <style lang="scss" scoped>
   @import 'src/style/mixin';
-  @import 'src/style/font';
-  .invest-item-title {
+  .title {
     margin-top: .2rem;
-    font-size: 0.65rem;
+    font-size: 0.58rem;
   }
-  .invest-item-status {
+  .item-botton {
     position: absolute;
     right: .5rem;
-    font-size: .5rem;
+    font-size: .45rem;
     font-family: Montserrat,'Microsoft YaHei','Heiti SC',simhei,'Lucida Sans Unicode','Myriad Pro','Hiragino Sans GB',Verdana;
     border: 1px solid #fa5551;
     color: #fa5551;
     padding: 0rem .15rem;
     border-radius: .1rem;
-    margin-top: 0.1rem;
+    margin-top:0.06rem;
     background: #fff;
   }
   .invest-item{
     position: relative;
     display: block;
-    padding: .4rem .7rem .7rem .7rem;
+    padding: .5rem;
   }
-  .p5{
-    padding: .5rem!important;
+  .invest-newcome-btn {
+    border: 1px solid #fb4945;
+    width: 3.3rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    border-radius: .7rem;
+    font-size: .5rem;
+    text-align: center;
+    color: #fb4945;
+    margin-top: -.9rem;
+    position: relative;
+    z-index: 2;
+    background: #fff;
   }
-  .b-line:after {
-    content: "";
-    width: 100%;
+  .invest-newcome-icon{
     position: absolute;
-    bottom: 0px;
-    left: 0px;
-    height: 1px;
-    -webkit-transform: scale(1,0.5);
-    background: #eaeaea;
+    top: 1.8rem;
+    right: 1rem;
+    background-position: 0 -1rem;
+    width: 1.9rem;
+    height: 1.3rem;
+    z-index: 1;
   }
   .flex-box{
     display: flex;
+    .num {
+      font-weight: 300;
+      font-size: 1.2rem;
+      color: #ee494d;
+      height: 1.2rem;
+      line-height: 0.8rem;
+      span {
+        color: #ee494d;
+        font-size: 0.8rem;
+      }
+    }
+    .user-gray{
+      font-size: 0.5rem;
+      margin-top: 0;
+      line-height: 0.9rem;
+    }
   }
   .flex-box>div{
     display: flex;
@@ -148,22 +169,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-top: 0.4rem;
-    height: 3rem;
-    font-size: 0.9rem;
-    span{
-      line-height: 1.92rem;
-      font-size: 0.9rem;
-    }
-    .num {
-         font-weight: 300;
-         font-size: 1.3rem;
-         color: #ee494d;
-         height: 1.92rem;
-         line-height: 1.62rem;
-      span{
-        color: #ee494d;
-      }
-    }
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
   }
 </style>

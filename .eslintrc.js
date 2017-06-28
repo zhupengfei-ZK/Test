@@ -21,7 +21,14 @@ module.exports = {
     'arrow-parens': 0,
     // allow async-await
     'generator-star-spacing': 0,
-    // allow debugger during development
+    //允许注释
+    'require-jsdoc': 0,
+    'spaced-comment': 0,
+    'lines-around-comment': 0,
+    'no-inline-comments': 0,
+    //允许不使用 === 和 !==
+    'eqeqeq': 0,
+      // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
 }

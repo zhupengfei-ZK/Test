@@ -3,8 +3,8 @@
         <slot name="text"></slot>
         <slot name="button"></slot>
         <router-link v-if="!item" :to="li.url"  class="guide_item" v-for="li of list" :key="li.id">
-            <icon :name="li.name" scale="2" style="color: #929292"></icon>
-            <span>{{li.text}}</span>
+          <i :class="li.class"></i>
+          <span class="rem-55">{{li.text}}</span>
         </router-link>
     </section>
 </template>
@@ -16,20 +16,20 @@
       return {
         'list': [
           {
-            'url': '/',
-            'name': 'home',
+            'url': '/home',
+            'class': 'el-icon-home',
             'text': '首页'
           }, {
             'url': '/find',
-            'name': 'light',
+            'class': 'el-icon-find',
             'text': '发现'
           }, {
             'url': '/user',
-            'name': 'account',
+            'class': 'el-icon-user',
             'text': '账户'
           }, {
             'url': '/bbs',
-            'name': 'community',
+            'class': 'el-icon-xxi',
             'text': '社区'
           }
         ]
@@ -62,8 +62,14 @@
     	flex-direction: column;
     	align-items: center;
       margin-top:0.4rem;
-      span{
-        @include sc(.55rem, #929292);
+      color: #929292;
+      i{
+        top: 0.05rem;
+        height: 1.2rem;
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        padding-top: 0;
+        padding-bottom: 0;
       }
     }
     p{
@@ -71,5 +77,7 @@
         @include sc(.8rem, #FF4B4A);
         margin: auto;
     }
-
+    .router-link-exact-active{
+      color: #FF4B4A;
+    }
 </style>

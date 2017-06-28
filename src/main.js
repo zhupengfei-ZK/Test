@@ -10,7 +10,7 @@ import './config/rem'
 import Icon from 'vue-svg-icon/Icon.vue'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-default/index.css'
+import '../theme/index.css'
 
 Vue.config.productionTip = false
 if ('addEventListener' in document) {

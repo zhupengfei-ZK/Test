@@ -22,16 +22,19 @@ export default new Router({
       children: [
         {
           path: '/xileduo',
-          component: xileduo
+          component: xileduo,
+          children: [
+            {
+              path: '/product',
+              component: product
+            }
+          ]
         }, {
           path: '/xiliduo',
           component: xiliduo
         }, {
           path: '/tianli',
           component: tianli
-        }, {
-          path: '/product',
-          component: product
         }
       ]
     }, {

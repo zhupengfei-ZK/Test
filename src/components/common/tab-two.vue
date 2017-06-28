@@ -1,64 +1,62 @@
 <template lang="html">
-    <div class="bbs-top-box">
-      <div class="bbs-top-tab">
-        <div data-attr="bbs-topics-list" class="item top-list current"><span>看帖</span></div>
-        <div data-attr="bbs-member" class="item user-member"><span>我</span></div>
-        <div class="bg" style="left: 0px;"></div>
-      </div>
+    <div class="box">
+      <el-row class="tab tc" :click="greet">
+        <el-col :span="12" class="current">看帖</el-col>
+        <el-col :span="12">我</el-col>
+        <div class="bg"></div>
+      </el-row>
     </div>
 </template>
 <script>
   export default {
-    props: ['tabData']
+    props: ['tabData'],
+    methods: {
+      greet: function (event) {
+        // `this` 在方法里指当前 Vue 实例
+        alert('Hello ' + this.name + '!')
+        // `event` 是原生 DOM 事件
+        if (event) {
+          alert(event.target.tagName)
+        }
+      }
+    }
   }
 </script>
 <style lang="scss" scoped>
   @import 'src/style/mixin';
-  .bbs-top-box {
+  .box {
     top: 0;
-    height: 2.5rem;
+    height: 2rem;
     background: #ef494d;
     position: fixed;
     width: 100%;
     z-index: 10;
-  }
-  .bbs-top-tab {
-    width: 7rem;
-    height: 1.4rem;
-    line-height: 1.4rem;
-    border: 1px solid #fff;
-    border-radius: 1rem;
-    margin: 0.55rem auto;
-    position: relative;
-    .item.top-list {
-      left: 0;
-    }
-    .item.current {
-      z-index: 2;
-      span{
-        color: #ef494d;
-      }
-    }
-    .item, .bg {
-      top: -.05rem;
-      width: 4rem;
-      height: 1.4rem;
-      position: absolute;
-      text-align: center;
+    .tab {
+      width: 6rem;
+      height: 1.2rem;
+      line-height: 1.2rem;
+      border: 1px solid #fff;
       border-radius: 1rem;
-      font-size: .7rem;
-      z-index: 1;
-      span{
-        color: #fff;
+      margin: 0.45rem auto;
+      position: relative;
+      overflow: hidden;
+      font-size: .6rem;;
+      color: #fff;
+      .current{
+        color:#ef494d;
+      }
+      .bg {
+        top: -.05rem;
+        width: 3.5rem;
+        height: 1.2rem;
+        position: absolute;
+        text-align: center;
+        border-radius: 1rem;
+        z-index: -1;
+        left: 0;
+        background: #fff;
       }
     }
-    .bg {
-      left: 0;
-      background: #fff;
-      transition: all .15s linear;
-    }
-    .item.user-member {
-      left: 45%;
-    }
   }
+
 </style>

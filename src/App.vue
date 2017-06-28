@@ -1,8 +1,6 @@
 <template>
     <transition name="router-fade" mode="out-in">
-      <div style="padding-bottom:1.25rem">
-        <router-view ></router-view>
-      </div>
+      <router-view ></router-view>
     </transition>
 </template>
 <script>
@@ -15,11 +13,8 @@
 
 <style lang="scss">
     @import './style/common';
-    .router-fade-leave-active {
-        transition: opacity 1s;
-    }
-    .router-fade-enter-active {
-        transition: opacity 1s;
+    .router-fade-leave-active, .router-fade-enter-active {
+        transition: opacity .3s;
     }
     .router-fade-enter, .router-fade-leave-active {
         opacity: 0;

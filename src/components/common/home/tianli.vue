@@ -8,10 +8,10 @@
           <el-row>
             <el-col :span="9"><div class="index-dayinvest-icon mt25" :class="item.class"></div></el-col>
             <el-col :span="15">
-              <div class="rem-10">
+              <div class="rem-9">
                 {{item.title}}
               </div>
-              <div class="rem-7 mt25 user-gray"  v-for="i of item.data">
+              <div class="rem-6 mt25 user-gray"  v-for="i of item.data">
                 <p><span class="b"></span>{{i}}</p>
               </div>
             </el-col>
@@ -19,12 +19,13 @@
         </div>
       </div>
       <div class="block pl5 pu5">
-        <div class="rem-8">七日平均预期年化收益：<span class="red rem-10">4.65</span></div>
+        <div class="rem-7">七日平均预期年化收益：<span class="red rem-10">4.65</span></div>
       </div>
       <foot-guide :item="true" class="t-line">
           <p slot="text">立即开通</p>
       </foot-guide>
     </div>
+    <div class="occupied"></div>
   </route>
 </template>
 <script>
@@ -76,9 +77,6 @@
   .index-dayinvest-box {
     background: #fff;
     margin-top: -.15rem;
-    p{
-      line-height: 1.2rem;
-    }
   }
   .index-dayinvest-icon {
     width: 4rem;
