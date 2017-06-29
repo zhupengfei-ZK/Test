@@ -57,6 +57,7 @@
 </template>
 <script>
   import axios from 'axios'
+  import {mapState, mapActions} from 'vuex'
   import footGuide from '../../components/footer/footGuide'
   import homeListOut from '../../components/common/home/home-list-out'
   export default {
@@ -94,14 +95,33 @@
       homeListOut
     },
     created () {
+      this.getUserInfo()
       this._init()
     },
+    mounted () {
+//      axios.get('/v1/cities?type=guess')
+//        .then(function (response) {
+//          console.log(response)
+//        })
+//        .catch(function (error) {
+//          console.log(error)
+//        })
+    },
     methods: {
+      ...mapActions([
+        'getUserInfo'
+      ]),
       _init () {
         axios.get('static/data.json').then((res) => {
           this.home = res.data.home
         })
       }
+    },
+    computed: {
+      ...mapState([
+        'userInfo',
+        'user_id'
+      ])
     }
   }
 </script>

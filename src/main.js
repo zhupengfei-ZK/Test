@@ -4,6 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VueRouter from 'vue-router'
+import store from './store/'
 import FastClick from 'fastclick'
 import validator from 'vue-validator'
 import './config/rem'
@@ -28,6 +29,7 @@ Vue.use(ElementUI)
 new Vue({
   el: '#app',
   router,
+  store,
   template: '<App/>',
   components: { App }
 })

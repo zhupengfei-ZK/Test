@@ -28,6 +28,10 @@ module.exports = {
     'no-inline-comments': 0,
     //允许不使用 === 和 !==
     'eqeqeq': 0,
+    //使用三元操作符
+    'no-unneeded-ternary': 0,
+    'no-ternary': 0,
+    'no-nested-ternary': 0,
       // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0
   }
