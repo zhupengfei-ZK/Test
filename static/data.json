@@ -83,11 +83,11 @@
   },
   "bbs": {
     "listDate":[
-      {"botton": "置顶", "text": "了解喜投网"},
-      {"botton": "置顶", "text": "黄生专栏"},
-      {"botton": "置顶", "text": "在线QQ客服"},
-      {"botton": "置顶", "text": "客服热线"},
-      {"botton": "置顶", "text": "帮助中心"}
+      {"botton": "置顶", "text": "了解喜投网", "isBorder": "true","rightIcon": false},
+      {"botton": "置顶", "text": "黄生专栏", "isBorder": "true","rightIcon": false},
+      {"botton": "置顶", "text": "在线QQ客服", "isBorder": "true","rightIcon": false},
+      {"botton": "置顶", "text": "客服热线", "isBorder": "true","rightIcon": false},
+      {"botton": "置顶", "text": "帮助中心", "isBorder": "false","rightIcon": false}
     ]
   }
 }
