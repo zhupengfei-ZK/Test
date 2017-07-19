@@ -96,6 +96,8 @@
 .el-icon-account:before { content: "\e618" }
 .el-icon-yue:before { content: "\e63e" }
 .el-icon-last:before { content: "\e60e" }
+.el-icon-X:before { content: "\e63f"; }
+.el-icon-quxiao:before { content: "\e613"; }
 
 .el-icon-loading {
   animation: rotating 1s linear infinite;
@@ -135,7 +137,7 @@
   -------------------------- */ /* Message
   -------------------------- */ /* Notification
   -------------------------- */ /* Input
-  -------------------------- */ /* Cascader
+  -------------------------- */ /*����ɫ*/ /* Cascader
   -------------------------- */ /* Group
   -------------------------- */ /* Tab
   -------------------------- */ /* Button

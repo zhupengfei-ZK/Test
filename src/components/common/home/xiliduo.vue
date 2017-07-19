@@ -36,7 +36,7 @@
         </el-row>
         <p class="rem-7 mu5">项目金额 <span class="red">500,000 元</span></p>
         <el-button type="danger" class="wh100 mu5">正在还款中</el-button>
-        <router-link to="#"class="red mt5 rem-55 onlyblock">
+        <router-link to="#"class="red mt5 rem-55 bk">
           喜利多理财计划服务协议书（范本）
         </router-link>
       </div>

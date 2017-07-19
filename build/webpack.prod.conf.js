@@ -8,6 +8,7 @@ var CopyWebpackPlugin = require('copy-webpack-plugin')
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
+var PrerenderSpaPlugin = require('prerender-spa-plugin')
 
 var env = process.env.NODE_ENV === 'testing'
   ? require('../config/test.env')
@@ -56,6 +57,7 @@ var webpackConfig = merge(baseWebpackConfig, {
         ? 'index.html'
         : config.build.index,
       template: 'index.html',
+      // Ensure asynchronous chucnks are injected into <head>
       inject: true,
       minify: {
         removeComments: true,
@@ -94,7 +96,36 @@ var webpackConfig = merge(baseWebpackConfig, {
         to: config.build.assetsSubDirectory,
         ignore: ['.*']
       }
-    ])
+    ]),
+    new PrerenderSpaPlugin(
+      // Absolute path to compiled SPA
+      path.join(__dirname, '../dist'),
+      // List of routes to prerender
+      [ '/home', '/xileduo', '/product' ],
+      {
+        captureAfterDocumentEvent: 'custom-post-render-event',
+        captureAfterElementExists: '#content',
+        captureAfterTime: 5000,
+        ignoreJSErrors: true,
+        maxAttempts: 10,
+        navigationLocked: true,
+        phantomOptions: '--disk-cache=true',
+        phantomPageSettings: {
+          loadImages: true
+        },
+        postProcessHtml: function (context) {
+          var titles = {
+            '/': 'Home',
+            '/xileduo': 'Our Story',
+            '/product': 'Contact Us'
+          }
+          return context.html.replace(
+            /<title>[^<]*<\/title>/i,
+            '<title>' + titles[context.route] + '</title>'
+          )
+        }
+      }
+    )
   ]
 })
 

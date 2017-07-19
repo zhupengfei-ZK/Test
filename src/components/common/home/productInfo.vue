@@ -1,16 +1,14 @@
 <template lang="html">
   <route>
     <head-top goBack="true" protype="newtype">
-      <p slot="new" class="mt25 wh70 tc">新手专享【20170612-0005】&nbsp;手动<br>
+      <p slot="center" class="mt25 wh70 tc new">{{title}}<br>
           <span>加入中</span>
       </p>
     </head-top>
     <div class="content rem-6">
-
       <foot-guide :item="true" class="p25">
         <el-button type="danger" slot="button" class="wh100" style="font-size: .8rem">立即登录</el-button>
       </foot-guide>
-
       <div class="product-detail-content pt10 tc">
       <p class="Montserrat fw5"><span class="rem-16">9.80</span><span class="rem-10">%</span></p>
       <p class="pb10 fontred">预期年化收益率</p>
@@ -96,25 +94,62 @@
 </template>
 <script>
   import route from '../route'
+  import axios from 'axios'
   import headTop from '../../header/head.vue'
   import footGuide from '../../footer/footGuide'
+  /*"is_auto":"0",//0手动自动标
+   "p_type":"1",//类型
+   "status":"0",//未开启1开启
+   "publish_time":"04-11 16:00",//发标时间
+   "account":"40000",//项目金额
+   "account_yes":"40000",//投资金额
+   "apr":"13",//预期年化收益率
+   "other":"0",//剩余金额
+   "full_time":"35",//满标用时
+   "isday":"1",//还款方式：1，到期全额还款。0，按月分期，else按月付息到期还本
+   "time_limit":"6"//项目期限
+   */
   export default {
+    props: ['message'],
     data () {
       return {
+        product: {},
         headTitle: '喜利多【20170612-0001】',
         activeName: 'first'
       }
     },
-    props: ['message'],
+    created () {
+      this._init()
+    },
     components: {
       headTop,
       route,
       footGuide
+    },
+    methods: {
+      _init () {
+        axios.get('static/data.json').then((res) => {
+          this.product = res.data.product[0]
+        })
+      }
+    },
+    computed: {
+      title: function () {
+        if (this.product.is_auto == '0') {
+          return this.product.name + '手动标'
+        } else {
+          return this.product.name + '自动标'
+        }
+      }
     }
   }
 </script>
 <style lang="scss" scoped>
   @import 'src/style/mixin';
+  .new{
+    @include sc(0.5rem, #fff);
+    @include cl;
+  }
   .content {
     margin-bottom: 2.5rem;
   }

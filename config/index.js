@@ -32,7 +32,7 @@ module.exports = {
         target:'https://mainsite-restapi.ele.me',
         changeOrigin:true,
         pathRewrite:{
-            '^/v1': '/v1'
+          '^/v1': '/v1'
         }
       }
     },

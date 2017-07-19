@@ -1,10 +1,10 @@
 <template>
   <div>
     <div class="reveal-list p75">
-      <div class="imgtitle p5 tc">
+      <router-link class="imgtitle p5 tc bk" to="login">
         <img class="b-line"src='https://xitouwang-upload.b0.upaiyun.com/avatar/noavatar_middle.gif'>
-        <p class="forhome m25">点击登录</p>
-      </div>
+        <p  class="forhome m25 bk">点击登录</p>
+      </router-link>
 
       <el-menu default-active="1" class="el-menu-vertical-demo whiteFont pu5">
         <el-menu-item  v-for="(item, index) of listDate" :key="index" style="padding-left: 0px;" index="1+index">
@@ -17,8 +17,10 @@
         <foot-guide class="t-line"></foot-guide>
         <div style="height:100%;overflow: auto;background: #efefef">
           <div class="relative">
-            <span class="sitting"  @click="show = !show"><i class="el-icon-set"></i></span>
-            <img  width="100%" style="display: block" src="../../../static/images/home/newcomer-2.jpg">
+            <span class="sitting p5"  @click="show = !show"><i class="el-icon-set"></i></span>
+            <router-link to="/guideinvest/main">
+              <img  width="100%" style="display: block" src="../../../static/images/home/newcomer-2.jpg">
+            </router-link>
           </div>
           <div class="clearfix relative">
             <div class="icon-bline"></div>
@@ -56,7 +58,6 @@
   </div>
 </template>
 <script>
-  import axios from 'axios'
   import {mapState, mapActions} from 'vuex'
   import footGuide from '../../components/footer/footGuide'
   import homeListOut from '../../components/common/home/home-list-out'
@@ -99,20 +100,22 @@
       this._init()
     },
     mounted () {
-//      axios.get('/v1/cities?type=guess')
-//        .then(function (response) {
-//          console.log(response)
-//        })
-//        .catch(function (error) {
-//          console.log(error)
-//        })
+      this.$http.get('http://cunguan.com/index.php?wap_json&module=picture&type=pc', {
+        responseType: 'text'
+      })
+        .then(function (response) {
+          console.log(response)
+        })
+        .catch(function (error) {
+          console.log(error)
+        })
     },
     methods: {
       ...mapActions([
         'getUserInfo'
       ]),
       _init () {
-        axios.get('static/data.json').then((res) => {
+        this.$http.get('static/data.json').then((res) => {
           this.home = res.data.home
         })
       }
@@ -136,8 +139,6 @@
       .sitting{
         position: absolute;
         color: #fff;
-        left: .5rem;
-        top: .5rem;
         font-size: 1rem;
       }
     }
@@ -238,6 +239,7 @@
       border: 3px solid #333333;
     }
     .forhome{
+      display: block;
       @include sc(0.75rem,#237fd1);
     }
   }

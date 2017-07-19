@@ -110,6 +110,7 @@
     position: relative;
     display: block;
     padding: .5rem;
+    color: #333;
   }
   .invest-newcome-btn {
     border: 1px solid #fb4945;

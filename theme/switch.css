@@ -130,7 +130,7 @@
 .el-switch__label{
     transition: .2s;
     position: absolute;
-    width: 46px;
+    width: 40px;
     height: 22px;
     left: 0;
     top: 0;
@@ -164,7 +164,7 @@
     margin: 0;
     display: inline-block;
     position: relative;
-    width: 46px;
+    width: 40px;
     height: 22px;
     border: 1px solid rgb(217, 193, 191);
     outline: none;
@@ -234,6 +234,7 @@
   -------------------------- */
     /* Input
   -------------------------- */
+    /*����ɫ*/
     /* Cascader
   -------------------------- */
     /* Group

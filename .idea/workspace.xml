@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://D:/phpStudy/WWW/cunguan/modules/dwbbs/dwbbs.inc.php" description="}" line="22" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62181126-b9aa-43ed-af80-b056b089aeec" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/home/guide-invest.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/home/guideinvest-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/user/invite-reg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/myvuedemo_node_modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/myvuedemo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/common/home/guideinvest.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/user/getpwd.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/user/login.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/user/reg.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.base.conf.js" afterPath="$PROJECT_DIR$/build/webpack.base.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/webpack.prod.conf.js" afterPath="$PROJECT_DIR$/build/webpack.prod.conf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/index.js" afterPath="$PROJECT_DIR$/config/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/element-variables.css" afterPath="$PROJECT_DIR$/element-variables.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.vue" afterPath="$PROJECT_DIR$/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/home/home-list-out.vue" afterPath="$PROJECT_DIR$/src/components/common/home/home-list-out.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/home/productInfo.vue" afterPath="$PROJECT_DIR$/src/components/common/home/productInfo.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/common/home/xiliduo.vue" afterPath="$PROJECT_DIR$/src/components/common/home/xiliduo.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/header/head.vue" afterPath="$PROJECT_DIR$/src/components/header/head.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/page/home/home.vue" afterPath="$PROJECT_DIR$/src/page/home/home.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/common.scss" afterPath="$PROJECT_DIR$/src/style/common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data.json" afterPath="$PROJECT_DIR$/static/data.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/alert.css" afterPath="$PROJECT_DIR$/theme/alert.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/autocomplete.css" afterPath="$PROJECT_DIR$/theme/autocomplete.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/badge.css" afterPath="$PROJECT_DIR$/theme/badge.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/base.css" afterPath="$PROJECT_DIR$/theme/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/breadcrumb-item.css" afterPath="$PROJECT_DIR$/theme/breadcrumb-item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/breadcrumb.css" afterPath="$PROJECT_DIR$/theme/breadcrumb.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/button-group.css" afterPath="$PROJECT_DIR$/theme/button-group.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/button.css" afterPath="$PROJECT_DIR$/theme/button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/card.css" afterPath="$PROJECT_DIR$/theme/card.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/carousel-item.css" afterPath="$PROJECT_DIR$/theme/carousel-item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/carousel.css" afterPath="$PROJECT_DIR$/theme/carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/cascader.css" afterPath="$PROJECT_DIR$/theme/cascader.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/checkbox-button.css" afterPath="$PROJECT_DIR$/theme/checkbox-button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/checkbox-group.css" afterPath="$PROJECT_DIR$/theme/checkbox-group.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/checkbox.css" afterPath="$PROJECT_DIR$/theme/checkbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/col.css" afterPath="$PROJECT_DIR$/theme/col.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/collapse-item.css" afterPath="$PROJECT_DIR$/theme/collapse-item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/collapse.css" afterPath="$PROJECT_DIR$/theme/collapse.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/color-picker.css" afterPath="$PROJECT_DIR$/theme/color-picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/date-picker.css" afterPath="$PROJECT_DIR$/theme/date-picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/dialog.css" afterPath="$PROJECT_DIR$/theme/dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/dropdown-item.css" afterPath="$PROJECT_DIR$/theme/dropdown-item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/dropdown-menu.css" afterPath="$PROJECT_DIR$/theme/dropdown-menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/dropdown.css" afterPath="$PROJECT_DIR$/theme/dropdown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/element-variables.css" afterPath="$PROJECT_DIR$/theme/element-variables.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/fonts/element-icons.ttf" afterPath="$PROJECT_DIR$/theme/fonts/element-icons.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/fonts/element-icons.woff" afterPath="$PROJECT_DIR$/theme/fonts/element-icons.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/form-item.css" afterPath="$PROJECT_DIR$/theme/form-item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/form.css" afterPath="$PROJECT_DIR$/theme/form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/icon.css" afterPath="$PROJECT_DIR$/theme/icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/index.css" afterPath="$PROJECT_DIR$/theme/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/input-number.css" afterPath="$PROJECT_DIR$/theme/input-number.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/input.css" afterPath="$PROJECT_DIR$/theme/input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/loading.css" afterPath="$PROJECT_DIR$/theme/loading.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/menu-item-group.css" afterPath="$PROJECT_DIR$/theme/menu-item-group.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/menu-item.css" afterPath="$PROJECT_DIR$/theme/menu-item.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/menu.css" afterPath="$PROJECT_DIR$/theme/menu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/message-box.css" afterPath="$PROJECT_DIR$/theme/message-box.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/message.css" afterPath="$PROJECT_DIR$/theme/message.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/notification.css" afterPath="$PROJECT_DIR$/theme/notification.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/option-group.css" afterPath="$PROJECT_DIR$/theme/option-group.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/option.css" afterPath="$PROJECT_DIR$/theme/option.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/pagination.css" afterPath="$PROJECT_DIR$/theme/pagination.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/popover.css" afterPath="$PROJECT_DIR$/theme/popover.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/progress.css" afterPath="$PROJECT_DIR$/theme/progress.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/radio-button.css" afterPath="$PROJECT_DIR$/theme/radio-button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/radio-group.css" afterPath="$PROJECT_DIR$/theme/radio-group.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/radio.css" afterPath="$PROJECT_DIR$/theme/radio.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/rate.css" afterPath="$PROJECT_DIR$/theme/rate.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/reset.css" afterPath="$PROJECT_DIR$/theme/reset.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/row.css" afterPath="$PROJECT_DIR$/theme/row.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/scrollbar.css" afterPath="$PROJECT_DIR$/theme/scrollbar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/select-dropdown.css" afterPath="$PROJECT_DIR$/theme/select-dropdown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/select.css" afterPath="$PROJECT_DIR$/theme/select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/slider.css" afterPath="$PROJECT_DIR$/theme/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/spinner.css" afterPath="$PROJECT_DIR$/theme/spinner.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/step.css" afterPath="$PROJECT_DIR$/theme/step.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/steps.css" afterPath="$PROJECT_DIR$/theme/steps.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/submenu.css" afterPath="$PROJECT_DIR$/theme/submenu.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/switch.css" afterPath="$PROJECT_DIR$/theme/switch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/tab-pane.css" afterPath="$PROJECT_DIR$/theme/tab-pane.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/table-column.css" afterPath="$PROJECT_DIR$/theme/table-column.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/table.css" afterPath="$PROJECT_DIR$/theme/table.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/tabs.css" afterPath="$PROJECT_DIR$/theme/tabs.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/tag.css" afterPath="$PROJECT_DIR$/theme/tag.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/time-picker.css" afterPath="$PROJECT_DIR$/theme/time-picker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/time-select.css" afterPath="$PROJECT_DIR$/theme/time-select.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/tooltip.css" afterPath="$PROJECT_DIR$/theme/tooltip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/transfer.css" afterPath="$PROJECT_DIR$/theme/transfer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/tree.css" afterPath="$PROJECT_DIR$/theme/tree.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/theme/upload.css" afterPath="$PROJECT_DIR$/theme/upload.css" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="myvuedemo" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="home.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/page/home/home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1799">
+              <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+              <folding>
+                <element signature="e#2695#2736#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#177#198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>HtmlWebpackPlugin</find>
+      <find>path</find>
+      <find>PrerenderSpaPlugin</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/theme/icon.css" />
+        <option value="$PROJECT_DIR$/src/style/mixin.scss" />
+        <option value="$PROJECT_DIR$/src/components/common/home/home-list-icon.vue" />
+        <option value="$PROJECT_DIR$/src/style/font.scss" />
+        <option value="$PROJECT_DIR$/src/components/footer/footGuide.vue" />
+        <option value="$PROJECT_DIR$/src/components/common/home/tianli.vue" />
+        <option value="$PROJECT_DIR$/src/components/common/home/xileduo.vue" />
+        <option value="$PROJECT_DIR$/theme/tabs.css" />
+        <option value="$PROJECT_DIR$/src/page/find/find.vue" />
+        <option value="$PROJECT_DIR$/src/components/common/find/find-list-title.vue" />
+        <option value="$PROJECT_DIR$/src/components/common/img-border.vue" />
+        <option value="$PROJECT_DIR$/src/page/user/user.vue" />
+        <option value="$PROJECT_DIR$/src/components/common/tab-two.vue" />
+        <option value="$PROJECT_DIR$/node_modules/element-theme-default/src/tabs.css" />
+        <option value="$PROJECT_DIR$/src/page/bbs/bbs.vue" />
+        <option value="$PROJECT_DIR$/src/components/common/bbs/bbs-mes.vue" />
+        <option value="$PROJECT_DIR$/src/config/env.js" />
+        <option value="$PROJECT_DIR$/src/config/fetch.js" />
+        <option value="$PROJECT_DIR$/src/store/mutation-types.js" />
+        <option value="$PROJECT_DIR$/src/service/tempdata/login.js" />
+        <option value="$PROJECT_DIR$/src/service/getData.js" />
+        <option value="$PROJECT_DIR$/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/src/config/mUtils.js" />
+        <option value="$PROJECT_DIR$/src/store/getters.js" />
+        <option value="$PROJECT_DIR$/src/store/index.js" />
+        <option value="$PROJECT_DIR$/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/src/store/action.js" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/build/webpack.prod.conf.js" />
+        <option value="$PROJECT_DIR$/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/components/common/home/xiliduo.vue" />
+        <option value="$PROJECT_DIR$/src/components/header/head.vue" />
+        <option value="$PROJECT_DIR$/node_modules/element-theme-default/src/input.css" />
+        <option value="$PROJECT_DIR$/node_modules/element-theme-default/src/icon.css" />
+        <option value="$PROJECT_DIR$/element-variables.css" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
+        <option value="$PROJECT_DIR$/src/page/user/getpwd.vue" />
+        <option value="$PROJECT_DIR$/src/page/user/reg.vue" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/common/home/home-list-out.vue" />
+        <option value="$PROJECT_DIR$/src/style/common.scss" />
+        <option value="$PROJECT_DIR$/src/components/common/home/guideinvest.vue" />
+        <option value="$PROJECT_DIR$/static/data.json" />
+        <option value="$PROJECT_DIR$/src/components/common/home/productInfo.vue" />
+        <option value="$PROJECT_DIR$/src/page/user/login.vue" />
+        <option value="$PROJECT_DIR$/node_modules/requires-port/index.js" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/config/index.js" />
+        <option value="$PROJECT_DIR$/src/page/home/home.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1926" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myvuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myvuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myvuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myvuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myvuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myvuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myvuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myvuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myvuedemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gulpsrc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/phpStudy/WWW/cunguan" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="D:\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="E:\Demo\myvuedemo\node_modules\mocha" />
+    <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Demo\myvuedemo\dist\static\images" />
+      <recent name="E:\Demo\myvuedemo\static\images\home" />
+      <recent name="E:\Demo\myvuedemo\static\images\user" />
+      <recent name="E:\Demo\myvuedemo\src\components\common\home" />
+      <recent name="E:\Demo\myvuedemo\static\images\bbs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Demo\myvuedemo\dist\static\images" />
+      <recent name="E:\Demo\myvuedemo\dist\static\images\gdtv2017" />
+      <recent name="E:\Demo\myvuedemo\dist\static" />
+      <recent name="E:\Demo\myvuedemo\static" />
+      <recent name="E:\Demo\myvuedemo\src\page\user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62181126-b9aa-43ed-af80-b056b089aeec" name="Default" comment="" />
+      <created>1497868604568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497868604568</updated>
+      <workItem from="1497868610990" duration="75000" />
+      <workItem from="1497868736148" duration="60180000" />
+      <workItem from="1498439831499" duration="1306000" />
+      <workItem from="1498443744768" duration="61716000" />
+      <workItem from="1499070875519" duration="6367000" />
+      <workItem from="1499131369137" duration="11802000" />
+      <workItem from="1499225719346" duration="39308000" />
+      <workItem from="1499671322802" duration="4313000" />
+      <workItem from="1499824599634" duration="27094000" />
+      <workItem from="1500017588437" duration="1595000" />
+      <workItem from="1500020187669" duration="16000" />
+      <workItem from="1500021103177" duration="5456000" />
+      <workItem from="1500254640808" duration="3026000" />
+      <workItem from="1500434844022" duration="6361000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="279420000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1926" y="0" width="1936" height="1096" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16965227" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.5021075" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32780084" sideWeight="0.49789253" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826748" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/user、/bbs.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/common/home/xileduo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/home/tianli.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/footer/footGuide.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/route.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/head.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/element-theme-default/src/fonts/element-icons.ttf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/element-theme-default/src/fonts/element-icons.woff">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/element-theme-default/src/icon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="101" column="18" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/element-theme-default/src/input.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/element-theme-default/src/switch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/element-variables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10827">
+          <caret line="401" column="24" selection-start-line="401" selection-start-column="24" selection-end-line="401" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/home/xiliduo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" column="27" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/user/getpwd.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/user/reg.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/home/guideinvest-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="32" column="17" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/user/user.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="124" column="19" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpsrc/images/index-invest-2.4fe6061.png" />
+    <entry file="file://$PROJECT_DIR$/gulpsrc/images/user/invest-lv.png" />
+    <entry file="file://$PROJECT_DIR$/static/images/user/invest-lv.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpsrc/images/user/user-account-tab.png" />
+    <entry file="file://$PROJECT_DIR$/static/images/user/user-account-tab.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/user/user-center.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpsrc/images/user/user-center.png" />
+    <entry file="file://$PROJECT_DIR$/gulpsrc/images/user/user-center-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/images/user/user-center-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/user/user-thrid-year.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpsrc/images/user/user-thrid-year.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/components/common/home/guideinvest.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/home/productInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+          <folding>
+            <marker date="1499931782663" expanded="true" signature="1986:5824" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/requires-port/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/common/home/home-list-out.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config/mUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7155">
+          <caret line="265" column="36" selection-start-line="265" selection-start-column="36" selection-end-line="265" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/user/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+          <folding>
+            <element signature="e#847#872#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpsrc/images/find-midea-2.c9e894d.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/home/newcomer-2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpsrc/images/newcomer-2.b6b204f.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/images/gdtv2017/banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpsrc/images/gdtv2017/banner.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+          <folding>
+            <element signature="e#2339#2733#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/home/home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1799">
+          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+          <folding>
+            <element signature="e#2695#2736#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpsrc/images/newmanage.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#177#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

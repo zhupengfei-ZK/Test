@@ -1,4 +1,4 @@
-body, div, span, img, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+body, div, img, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4,h5, h6, i, b, textarea, button, input, select, figure, figcaption {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -60,13 +60,13 @@ html,body{
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-.margin{
-  margin: 0 auto;
+.mc{
+  margin:auto;
 }
 .hide{
     display: none;
 }
-.show, .onlyblock{
+.show, .bk{
     display: block;
 }
 .ellipsis{
@@ -166,6 +166,9 @@ html,body{
 .rem-8 {
   font-size: 0.8rem;
 }
+.rem-75 {
+  font-size: 0.75rem;
+}
 .rem-7 {
   font-size: 0.7rem;
 }
@@ -183,6 +186,9 @@ html,body{
 }
 .rem-45 {
   font-size: .45rem;
+}
+.lh10 {
+  line-height: 1rem;
 }
 .lh13 {
   line-height: 1.3rem;
@@ -220,8 +226,8 @@ html,body{
 .pt5{
   padding-top: .5rem;
 }
-.paddingTop{
-  padding-top: 1.95rem;
+.pt18{
+  padding-top: 1.8rem;
 }
 .pc3{
   padding: 0 0.3rem;
@@ -246,6 +252,12 @@ html,body{
 }
 .m5 {
   margin: .5rem;
+}
+.mt10 {
+  margin-top: 1rem;
+}
+.mt75 {
+  margin-top: .75rem;
 }
 .mt5 {
   margin-top: .5rem;
@@ -286,8 +298,11 @@ html,body{
 .wh70{
   width: 70%;
 }
+.wh50{
+  width: 50%;
+}
 .content{
-  margin-top: 1.95rem;
+  margin-top: 1.8rem;
 }
 .b {
   width: 4px;
